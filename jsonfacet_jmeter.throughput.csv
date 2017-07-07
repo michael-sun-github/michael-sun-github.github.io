@@ -23,3 +23,15 @@ timestamp,metric,value,run_name,method,test_case,field,tags
 1499359308000,jmeter.throughput,164.333333333,nightly-2017-07-06-09-40-22,enum,jsonfacet,s10000_s,{}
 1499359492000,jmeter.throughput,116.333333333,nightly-2017-07-06-09-43-26,enum,jsonfacet,s100000_s,{}
 1499359677000,jmeter.throughput,85.0,nightly-2017-07-06-09-46-31,enum,jsonfacet,s1000000_s,{}
+1499400508000,jmeter.throughput,194.0,nightly-2017-07-06-21-07-02,dv,jsonfacet,s10_s,{}
+1499400692000,jmeter.throughput,207.0,nightly-2017-07-06-21-10-06,dv,jsonfacet,s100_s,{}
+1499400876000,jmeter.throughput,182.666666667,nightly-2017-07-06-21-13-10,dv,jsonfacet,s1000_s,{}
+1499401060000,jmeter.throughput,163.0,nightly-2017-07-06-21-16-14,dv,jsonfacet,s10000_s,{}
+1499401244000,jmeter.throughput,116.0,nightly-2017-07-06-21-19-18,dv,jsonfacet,s100000_s,{}
+1499401428000,jmeter.throughput,84.3333333333,nightly-2017-07-06-21-22-22,dv,jsonfacet,s1000000_s,{}
+1499401612000,jmeter.throughput,191.0,nightly-2017-07-06-21-25-27,enum,jsonfacet,s10_s,{}
+1499401796000,jmeter.throughput,204.333333333,nightly-2017-07-06-21-28-31,enum,jsonfacet,s100_s,{}
+1499401980000,jmeter.throughput,182.666666667,nightly-2017-07-06-21-31-35,enum,jsonfacet,s1000_s,{}
+1499402164000,jmeter.throughput,163.333333333,nightly-2017-07-06-21-34-38,enum,jsonfacet,s10000_s,{}
+1499402348000,jmeter.throughput,116.0,nightly-2017-07-06-21-37-42,enum,jsonfacet,s100000_s,{}
+1499402532000,jmeter.throughput,83.3333333333,nightly-2017-07-06-21-40-46,enum,jsonfacet,s1000000_s,{}
