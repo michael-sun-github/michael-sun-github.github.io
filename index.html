@@ -1,1 +1,40 @@
-Solr Performance Tracking
+<h1>Solr Nightly Benchmarks</h1>
+
+Here a script runs every night to check out latest Solr trunk code and run benchmarks. The benchmark uses tweets as test data set, which is a good simulation of real time analytics use cases. You can find the test script at <a href="https://issues.apache.org/jira/browse/SOLR-10317">SOLR-10317</a>.
+
+In addition, there are lightweight benchmarks against Solr dependencies run and results are reported. 
+
+The goal is to 1) catch regressions 2) provide a performance baseline for capacity planning.
+
+There are a couple of other Solr <a href="https://issues.apache.org/jira/browse/SOLR-10317">benchmarks</a> that uses different data set and covers different use cases.
+
+More details will come up.
+
+<h3>JSON facet (Single Server)</h3> 
+<a href="jsonfacet_jmeter.latency.avg.html">latency</a>
+<a href="jsonfacet_jmeter.throughput.html">throughput</a>
+<a href="jsonfacet_sar.cpu.html">CPU util</a>
+
+<h3>HDFS hsync (on 6-node CDH cluster)</h3>
+<a href="hdfsappend_jmeter.latency.avg.html">latency</a>
+<a href="hdfsappend_jmeter.throughput.html">throughput</a>
+
+
+<h4>Single server configuration</h4>
+Hardware
+CPU: 24 cores Intel(R) Xeon(R) CPU E5-2630L v2 @ 2.40GHz
+Memory: 128G 1333M DDR3
+Disk: 12x 2TB disks. Type: ST2000NM0033-9ZM175 7200RPM. JBOD, No RAID.
+Network: 10G
+
+Solr
+Heap: 4G
+
+<h4>CDH cluster hardware</h4>
+Nodes: 6 Solr nodes, co-living with 6 DN nodes. One extra node for HDFS NN, ZK, CM etc.
+CPU: 48 cores Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz with hyper threading enabled
+Memory: 96G 1333M DDR3
+Disk: 12x 2TB disks. Type: ST2000NM0033-9ZM175 7200RPM. JBOD, No RAID.
+Network: 10G
+
+
