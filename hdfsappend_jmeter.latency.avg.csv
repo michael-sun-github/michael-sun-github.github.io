@@ -11,3 +11,9 @@ timestamp,metric,value,num_threads,test_case,run_name,tags
 1499746057000,jmeter.latency.avg,48.8378378378,1,hdfsappend,debug-2017-07-10-21-07-37,{}
 1499746089000,jmeter.latency.avg,49.2991090369,4,hdfsappend,debug-2017-07-10-21-08-09,{}
 1499746121000,jmeter.latency.avg,49.8574042187,16,hdfsappend,debug-2017-07-10-21-08-41,{}
+1499832459000,jmeter.latency.avg,55.9574468085,1,hdfsappend,debug-2017-07-11-21-07-39,{}
+1499832491000,jmeter.latency.avg,50.5965141612,4,hdfsappend,debug-2017-07-11-21-08-11,{}
+1499832524000,jmeter.latency.avg,48.1534622583,16,hdfsappend,debug-2017-07-11-21-08-44,{}
+1499918858000,jmeter.latency.avg,52.8226691042,1,hdfsappend,debug-2017-07-12-21-07-38,{}
+1499918890000,jmeter.latency.avg,55.5426653883,4,hdfsappend,debug-2017-07-12-21-08-10,{}
+1499918923000,jmeter.latency.avg,48.9112894709,16,hdfsappend,debug-2017-07-12-21-08-43,{}

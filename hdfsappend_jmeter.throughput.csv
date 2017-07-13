@@ -11,3 +11,9 @@ timestamp,metric,value,num_threads,test_case,run_name,tags
 1499746057000,jmeter.throughput,20.0,1,hdfsappend,debug-2017-07-10-21-07-37,{}
 1499746089000,jmeter.throughput,80.0,4,hdfsappend,debug-2017-07-10-21-08-09,{}
 1499746121000,jmeter.throughput,320.0,16,hdfsappend,debug-2017-07-10-21-08-41,{}
+1499832459000,jmeter.throughput,17.0,1,hdfsappend,debug-2017-07-11-21-07-39,{}
+1499832491000,jmeter.throughput,78.0,4,hdfsappend,debug-2017-07-11-21-08-11,{}
+1499832524000,jmeter.throughput,331.0,16,hdfsappend,debug-2017-07-11-21-08-44,{}
+1499918858000,jmeter.throughput,18.0,1,hdfsappend,debug-2017-07-12-21-07-38,{}
+1499918890000,jmeter.throughput,71.0,4,hdfsappend,debug-2017-07-12-21-08-10,{}
+1499918923000,jmeter.throughput,326.0,16,hdfsappend,debug-2017-07-12-21-08-43,{}
