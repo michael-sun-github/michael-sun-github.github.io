@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type='text/javascript'>
+	google.load('visualization', '1', {'packages':['annotationchart']});
+	google.setOnLoadCallback(drawChart);
+	function drawChart() {
+
+		var data = new google.visualization.DataTable();
+		data.addColumn('date', 'timestamp');
+		data.addColumn('number', '1-us-west-2-value');
+		data.addRows([
+			[new Date(1500930000000),2.05922846667E7],
+		]);
+		var chart = new google.visualization.AnnotationChart(document.getElementById('chart_div'));
+		var options = {
+		width: "1080",
+		title: "NewChart",
+		height: "720",
+		};
+		chart.draw(data, options);
+	}
+	</script>
+	</head>
+	<body>
+		<div id='chart_div' style='width: 900px; height: 500px;'></div>
+	</body>
+</html>
