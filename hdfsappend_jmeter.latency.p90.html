@@ -1,0 +1,46 @@
+<html>
+<head>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type='text/javascript'>
+	google.load('visualization', '1', {'packages':['annotationchart']});
+	google.setOnLoadCallback(drawChart);
+	function drawChart() {
+
+		var data = new google.visualization.DataTable();
+		data.addColumn('date', 'timestamp');
+		data.addColumn('number', '1-value');
+		data.addColumn('number', '4-value');
+		data.addColumn('number', '16-value');
+		data.addRows([
+			[new Date(1499482800000),58.0,58.0,58.0],
+			[new Date(1499569200000),46.0,58.0,59.0],
+			[new Date(1499655600000),50.0,50.0,58.0],
+			[new Date(1499742000000),57.9,58.0,59.0],
+			[new Date(1499828400000),62.4,59.0,57.0],
+			[new Date(1499914800000),62.0,66.0,58.0],
+			[new Date(1500001200000),53.0,59.0,59.0],
+			[new Date(1500087600000),50.0,53.0,58.0],
+			[new Date(1500174000000),56.0,60.0,58.0],
+			[new Date(1500260400000),58.0,53.0,59.0],
+			[new Date(1500346800000),56.7666666667,61.0,59.6666666667],
+			[new Date(1500433200000),57.4,54.6666666667,59.0],
+			[new Date(1500519600000),58.0333333333,60.0,59.0],
+			[new Date(1500606000000),60.4,60.3333333333,62.3333333333],
+			[new Date(1500692400000),59.1,59.0,59.0],
+			[new Date(1500778800000),62.5666666667,59.0,59.0],
+			[new Date(1500865200000),59.2333333333,57.0,59.0],
+		]);
+		var chart = new google.visualization.AnnotationChart(document.getElementById('chart_div'));
+		var options = {
+		width: "1080",
+		title: "NewChart",
+		height: "720",
+		};
+		chart.draw(data, options);
+	}
+	</script>
+	</head>
+	<body>
+		<div id='chart_div' style='width: 900px; height: 500px;'></div>
+	</body>
+</html>

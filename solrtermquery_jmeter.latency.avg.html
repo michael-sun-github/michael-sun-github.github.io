@@ -1,0 +1,36 @@
+<html>
+<head>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type='text/javascript'>
+	google.load('visualization', '1', {'packages':['annotationchart']});
+	google.setOnLoadCallback(drawChart);
+	function drawChart() {
+
+		var data = new google.visualization.DataTable();
+		data.addColumn('date', 'timestamp');
+		data.addColumn('number', '1-value');
+		data.addColumn('number', '4-value');
+		data.addColumn('number', '16-value');
+		data.addRows([
+			[new Date(1500400800000),1.46056077829,0.94194876993,0],
+			[new Date(1500433200000),1.40287556957,0.941191858577,0],
+			[new Date(1500519600000),1.49131070261,0.942297668697,0],
+			[new Date(1500606000000),1.40840772242,0.962502048458,0],
+			[new Date(1500692400000),1.40223957355,0.942180840295,0],
+			[new Date(1500778800000),1.40615610926,0.953183429661,0],
+			[new Date(1500865200000),1.46778058167,0.933761158309,0],
+		]);
+		var chart = new google.visualization.AnnotationChart(document.getElementById('chart_div'));
+		var options = {
+		width: "1080",
+		title: "NewChart",
+		height: "720",
+		};
+		chart.draw(data, options);
+	}
+	</script>
+	</head>
+	<body>
+		<div id='chart_div' style='width: 900px; height: 500px;'></div>
+	</body>
+</html>
