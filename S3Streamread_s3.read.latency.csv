@@ -1,3 +1,4 @@
 timestamp,metric,value,num_threads,region,test_case,run_name,tags
 1500932226000,s3.read.latency,13.0,1,us-west-2,S3Streamread,debug-2017-07-24-14-37-06,{}
 1501866951000,s3.read.latency,48.3333333333,1,us-west-2,S3Streamread,debug-2017-08-04-10-15-51,{}
+1502756699000,s3.read.latency,9.66666666667,1,us-west-2,S3Streamread,debug-2017-08-14-17-24-59,{}
