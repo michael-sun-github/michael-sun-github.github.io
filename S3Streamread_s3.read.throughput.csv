@@ -1,5 +1,1 @@
-timestamp,metric,value,num_threads,region,test_case,run_name,tags
-1500932226000,s3.read.throughput,20592284.6667,1,us-west-2,S3Streamread,debug-2017-07-24-14-37-06,{}
-1501866951000,s3.read.throughput,1476725.66667,1,us-west-2,S3Streamread,debug-2017-08-04-10-15-51,{}
-1502756699000,s3.read.throughput,18373671.6667,1,us-west-2,S3Streamread,debug-2017-08-14-17-24-59,{}
-1503954569000,s3.read.throughput,9139795.33333,1,us-west-2,S3Streamread,debug-2017-08-28-14-09-29,{}
+1506131730000,s3.read.throughput,17805249.3333,1,us-west-2,S3Streamread,debug-2017-09-22-18-55-30,{}
